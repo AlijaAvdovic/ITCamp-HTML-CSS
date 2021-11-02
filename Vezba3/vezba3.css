@@ -1,0 +1,45 @@
+.klasa1 {
+  width: 500px;
+  height: 180px;
+  border: 1px solid #000000;
+  background-color: rgb(221, 218, 218);
+  border: none;
+  padding: 10px;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 15px;
+  margin-left: 20px;
+}
+h1 {
+  margin-left: 20px;
+  font-family: "Inconsolata";
+  font-style: normal;
+}
+h2 {
+  font-size: 25px;
+  font-family: "Inconsolata";
+}
+.klasa2 {
+  background-color: white;
+  margin-left: 20px;
+  padding-left: 10px;
+  border-left: 5px solid green;
+}
+.klasa3 {
+  width: 50vh;
+  height: 100%;
+  padding: 20px;
+  background-color: blue;
+  border: 1px solid black;
+}
+.klasa4 {
+  background-color: green;
+  border: 1px solid black;
+  width: 100%;
+  height: 10vw;
+}

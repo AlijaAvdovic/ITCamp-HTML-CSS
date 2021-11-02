@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMac;
+  font-size:24px;
+  font-weight: 500;
+}
+h2 {
+  text-align: center;
+  letter-spacing: -5px;
+}
+h3 {
+  text-align: right;
+}
+
+div {
+  border: 0.5px solid rgb(229, 231, 235);
+  width: 250px;
+  height: 310.909px;
+  background-color:rgba(243, 244, 246, 0.75);
+  margin-left:50px;
+  border-radius:10px;
+  padding: 20px;
+
+
+}h4{
+    text-align:center;
+    color:rgb(156, 163, 175);s
+}
+p{
+    text-align: center;
+    font-family:ui-sans-serif, system-ui, -apple-system, BlinkMac;
+    color:rgb(75, 85, 99);
+
+}
+a{
+    margin-left:85px;
+    text-decoration-line: none;
+}
+.icons{
+    
+}

@@ -1,0 +1,38 @@
+ul {
+  height: 70px;
+  width: 500px;
+  background-color: black;
+  padding-left: 0px;
+}
+li {
+  color: white;
+  padding: 26px;
+  display: inline-block;
+}
+.zelena {
+  background-color: green;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+div {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.desni {
+  background-color: green;
+  position: relative;
+  top: 100px;
+  right: 100px;
+}
+.levi {
+  background-color: purple;
+}
+.treci {
+  background-color: blue;
+  position: relative;
+  right: 370px;
+  top: 50px;
+}

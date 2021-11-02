@@ -1,0 +1,30 @@
+div {
+  border: 2px solid black;
+  display: inline-block;
+  padding: 10px;
+  background-color: white;
+}
+.prvi {
+  width: 250px;
+  height: 200px;
+}
+.drugi {
+  width: 200px;
+  height: 250px;
+  position: relative;
+  top: 150px;
+  right: 60px;
+}
+.treci {
+  width: 520px;
+  height: 170px;
+  position: relative;
+  top: 300px;
+  right: 505px;
+}
+.cetvrti {
+  width: 130px;
+  height: 400px;
+  position: relative;
+  right: 550px;
+}
