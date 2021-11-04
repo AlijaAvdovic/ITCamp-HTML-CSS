@@ -27,6 +27,7 @@ div {
   font-size: 55px;
   position: absolute;
   left: 6px;
+  background-color: white;
 }
 .fa-shield-check {
   top: 160px;
@@ -39,5 +40,5 @@ div {
 }
 .fa-anchor {
   top: 510px;
-  left: 3px;
+  left: 2.5px;
 }

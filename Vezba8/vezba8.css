@@ -1,0 +1,30 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  text-align: left;
+}
+.prva {
+  background-color: lightblue;
+  border: none;
+}
+.druga {
+  padding-right: 150px;
+}
+td {
+  padding: 8px;
+  padding-right: 50px;
+}
+th {
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: oldlace;
+}
+tr:hover {
+  color: blue;
+  font-weight: bold;
+}
