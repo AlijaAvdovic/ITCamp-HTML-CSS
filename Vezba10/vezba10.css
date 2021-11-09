@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+form {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  border: 1px black solid;
+  height: 150vh;
+  width: 55%;
+  margin: auto;
+  padding: 35px;
+}
+.kartica {
+  display: inline-block;
+  width: 45.5%;
+  height: 50px;
+  margin: 2%;
+  margin-top: 4%;
+}
+.karticad {
+  float: right;
+}
+label {
+  display: block;
+}
+input {
+  padding: 10px 0;
+  width: 98%;
+}
