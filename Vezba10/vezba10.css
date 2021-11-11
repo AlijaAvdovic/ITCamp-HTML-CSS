@@ -8,7 +8,7 @@ form {
 }
 .main {
   border: 1px black solid;
-  height: 130vh;
+  height: 135vh;
   width: 55%;
   margin: auto;
   padding: 35px;
@@ -72,4 +72,7 @@ button {
   margin-top: 5px;
   padding-left: 13px;
   display: inline-block;
+}
+button:hover {
+  background-color: rgb(80, 75, 75);
 }
