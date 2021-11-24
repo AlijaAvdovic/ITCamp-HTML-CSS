@@ -61,28 +61,52 @@ button:hover {
   background-color: blue;
 }
 .section2 {
-  height: 90vh;
-  width: 100%;
-  background-image: url(city-cut.png);
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.5), transparent),
+    url(city-cut.png);
   background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  align-items: center;
   position: relative;
+  display: flex;
+  overflow: hidden;
 }
+
 h3 {
-  color: white;
-  padding: 1rem 0 rem;
+  padding: 100 0 0 100;
   text-decoration: underline;
   text-decoration-thickness: 0.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
+  color: white;
 }
-.oblak1,
-.oblak .oblak2 {
-  display: inline-block;
+.oblak {
   position: absolute;
-  z-index: 1;
-  width: 600px;
-  height: 400px;
-  right: 150px;
-  top: 150px;
+  top: 0%;
+  right: 0%;
+  width: 50%;
+  height: 60%;
+  pointer-events: none;
+}
+.oblak1 {
+  animation: oblak 4s infinite alternate ease-in-out;
 }
 .oblak2 {
+  top: 15%;
+  z-index: -1;
+  opacity: 0.6;
+  animation: oblak 3.5s infinite alternate ease-in-out;
+}
+h5 {
+  padding: 0 0 0 100;
+  font-size: 2.5rem;
+  color: white;
+}
+@keyframes oblak {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
 }
