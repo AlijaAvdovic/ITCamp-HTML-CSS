@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(13);
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+.broj {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+.broj2 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 7;
+}
+.broj3 {
+  background-color: green;
+  grid-column-start: 7;
+  grid-column-end: 13;
+}
+.broj4 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.broj5 {
+  background-color: green;
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+.broj6 {
+  background-color: green;
+  grid-column-start: 9;
+  grid-column-end: 13;
+}
+.broj7 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.broj8 {
+  background-color: green;
+  grid-column-start: 4;
+  grid-column-end: 7;
+}
+.broj9 {
+  background-color: green;
+  grid-column-start: 7;
+  grid-column-end: 10;
+}
+.broj10 {
+  background-color: green;
+  grid-column-start: 10;
+  grid-column-end: 13;
+}
+.broj11 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.broj12 {
+  background-color: green;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.broj13 {
+  background-color: green;
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.broj14 {
+  background-color: green;
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+.broj15 {
+  background-color: green;
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+.broj16 {
+  background-color: green;
+  grid-column-start: 11;
+  grid-column-end: 13;
+}
+.broj17 {
+  background-color: green;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.broj18 {
+  background-color: green;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.broj19 {
+  background-color: green;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+.broj20 {
+  background-color: green;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+.broj21 {
+  background-color: green;
+  grid-column-start: 5;
+  grid-column-end: 6;
+}
+.broj22 {
+  background-color: green;
+  grid-column-start: 6;
+  grid-column-end: 7;
+}
+.broj23 {
+  background-color: green;
+  grid-column-start: 7;
+  grid-column-end: 8;
+}
+.broj24 {
+  background-color: green;
+  grid-column-start: 8;
+  grid-column-end: 9;
+}
+.broj25 {
+  background-color: green;
+  grid-column-start: 9;
+  grid-column-end: 10;
+}
+.broj26 {
+  background-color: green;
+  grid-column-start: 10;
+  grid-column-end: 11;
+}
+.broj27 {
+  background-color: green;
+  grid-column-start: 11;
+  grid-column-end: 12;
+}
+.broj28 {
+  background-color: green;
+  grid-column-start: 12;
+  grid-column-end: 13;
+}
