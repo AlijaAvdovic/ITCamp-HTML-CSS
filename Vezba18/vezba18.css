@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  border: 5px blue solid;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kartica {
+  width: 30%;
+  height: 30vh;
+  background-color: green;
+}
+@media screen and (max-width: 1000px) {
+  .kartica {
+    background-color: yellow;
+  }
+}
+@media screen and (max-width: 600px) {
+  .kartica {
+    background-color: red;
+  }
+}
